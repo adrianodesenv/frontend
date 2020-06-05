@@ -1,24 +1,23 @@
 # Air Liquide Brasil - Teste Front-End
 
-## Instruções
-- Faça um fork desse projeto para a sua conta do GitHub ou Bitbucket.
-- Crie um README com as instruções para testar e rodar o projeto.
-- Após finalizar, mande um pull request para esse repositório e notifique a recrutadora por e-mail.
+## Instruções de uso
+
+- yarn install - instalar as dependências
+- yarn start - executar o projeto
+
+- Lista Post
+- Add Post
+- Marca Post Favorito
 
 ## Especificações técnicas
-- Utilizar ReactJS ou VanillaJS.
-- Testes com Enzyme ou suite de sua preferência.
-- State management com Redux/Redux Saga ou de sua preferência.
-- Consumir a API https://my.api.mockaroo.com/instagram_feed.json?key=d3fb7580 ou de sua preferência, desde que contenha todos os dados necessários.
 
-## Teste
-Recrie o feed do Instagram web (sem páginas externas, só o feed principal), incluindo funcionalidades/componentes visuais como: header, stories, postagens, like, etc.
-
-Referência: https://instagram.com
-
-**Prazo máximo de 3 dias.**
+- ReactJS
+- State management com Redux/Redux Saga.
+- Consumir a API https://my.api.mockaroo.com/instagram_feed.json?key=d3fb7580
+- Hooks
 
 ## O que será avaliado
+
 - Clean code
 - Componentização
 - Arquitetura
@@ -27,4 +26,3 @@ Referência: https://instagram.com
 - Escalabilidade
 - Uso do Git
 - Performance
-
